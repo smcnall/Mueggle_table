@@ -16,6 +16,7 @@ p_value = NULL
 #also, you can specify the specific range using the notation 1:10, which indicates
 #start at position 1, increment until position 10. In this case, we want the number
 #of columns, so length(colnames(df)) does the trick
+#set up to run through first 100 columns
 #finally, a df has either colnames or rownames, but no "names"
 for (k in 1:100){
   for (l in 1:100){
